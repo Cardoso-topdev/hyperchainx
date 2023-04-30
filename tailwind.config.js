@@ -16,6 +16,7 @@ module.exports = {
         xsm: "390px",
         sm: "640px",
         // => @media (min-width: 640px) { ... }
+        xmd: "768px",
 
         md: "834px",
         // => @media (min-width: 834px) { ... }
@@ -44,6 +45,9 @@ module.exports = {
         'nft-bk-img': "url('/splash_nft.png')",
         'project-bk-img': "url('/splash_project.png')",
         'gaming-bk-img': "url('/splash_gaming.png')",
+      },
+      animation: {
+        'overlay-fadein': "fadeIn .3s ease-in-out"
       }
     },
   },
