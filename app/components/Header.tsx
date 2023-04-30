@@ -12,7 +12,7 @@ const Header = ({ isNavDrawerOpen, toggleNavDrawer }: { isNavDrawerOpen: boolean
   return (
     <>
       <div className="max-xmd:px-[20px] px-[40px]">
-        <div className='h-[100px] border border-dark-grey border-0 border-b-[1px] w-full m-0 py-[30px] flex justify-between items-center'>
+        <div className='h-[100px] border-dark-grey border-0 border-b-[1px] w-full m-0 py-[30px] flex justify-between items-center'>
           <div className="relative flex-1 justify-start">
             <div className="w-[240px] h-[40px] max-sm:w-full relative ">
               <Link href="/" >
@@ -84,6 +84,21 @@ const Header = ({ isNavDrawerOpen, toggleNavDrawer }: { isNavDrawerOpen: boolean
         </div>
       </div>
       <div className={`fixed top-0 w-[300px] ${navDrawerClsNameExt} h-[100vh] bg-black z-20 transition transition-all duration-300 ease-in-out flex items-center`}>
+        <div className="absolute h-[100px] top-0 left-[15px] flex items-center ">
+          <Link href="/" passHref={true}>
+            <div className="uppercase flex items-center">
+              <Image
+                src="/logo-title.png"
+                alt="mobile"
+                className="mt-[-2px]"
+                width={212}
+                height={16}
+                priority
+                objectFit='contain'
+              />
+            </div>
+          </Link>
+        </div>
         <div className='ml-[50px] flex gap-[60px] flex-col'>
           <Link href="/" passHref={true}>
             <div className="uppercase flex">
