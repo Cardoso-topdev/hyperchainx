@@ -1,7 +1,9 @@
 import MainLayout from "./components/layouts/MainLayout";
 import AsFeatureOnSection from "./components/sections/AsFeatureOnSection";
 import CoreFeaturesSection from "./components/sections/CoreFeaturesSection";
+import DigitalArtMuseumSection from "./components/sections/DigitalArtMuseumSection";
 import GamingPlatformSection from "./components/sections/GamingPlatformSection";
+import HyperTronsNFTsSection from "./components/sections/HyperTronsNFTsSection";
 import LandingHeroSection from "./components/sections/LandingHeroSection";
 import MultiChainSection from "./components/sections/MultiChainSection";
 import NFTMarketPlaceSection from "./components/sections/NFTMarketPlaceSection";
@@ -15,6 +17,8 @@ export default function Home() {
       <MultiChainSection />
       <CoreFeaturesSection />
       <AsFeatureOnSection />
+      <HyperTronsNFTsSection />
+      <DigitalArtMuseumSection />
     </MainLayout>
   )
 }
