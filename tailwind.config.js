@@ -7,11 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       screens: {
         xsm: "390px",
         sm: "640px",
@@ -49,6 +44,7 @@ module.exports = {
         'nft-bk-img': "url('/splash_nft.png')",
         'project-bk-img': "url('/splash_project.png')",
         'gaming-bk-img': "url('/splash_gaming.png')",
+        'gradient-bottom-lime': 'linear-gradient(to bottom, rgba(12, 12, 12, 0) 31%, #a3ff12 500%)'
       },
       animation: {
         'overlay-fadein': "fadeIn .3s ease-in-out"

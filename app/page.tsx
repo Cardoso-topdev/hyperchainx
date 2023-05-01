@@ -1,4 +1,5 @@
 import MainLayout from "./components/layouts/MainLayout";
+import AsFeatureOnSection from "./components/sections/AsFeatureOnSection";
 import CoreFeaturesSection from "./components/sections/CoreFeaturesSection";
 import GamingPlatformSection from "./components/sections/GamingPlatformSection";
 import LandingHeroSection from "./components/sections/LandingHeroSection";
@@ -13,6 +14,7 @@ export default function Home() {
       <GamingPlatformSection />
       <MultiChainSection />
       <CoreFeaturesSection />
+      <AsFeatureOnSection />
     </MainLayout>
   )
 }
