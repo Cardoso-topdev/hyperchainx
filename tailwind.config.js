@@ -37,9 +37,16 @@ module.exports = {
         backing: "#0c0c0c",
         "dark-grey": "#202020",
         "electric-lime": "#a3ff12",
+        "light-grey": "#8f8f8f",
+        "dark": '#161616',
       },
       lineHeight: {
-        "extra-tight": 1.35,
+        "super-tight": 1.1,
+        "very-tight": 1.2,
+        "extra-tight": 1.33,
+        "specific-tight": 1.38,
+        "tight": 1.5,
+        'broad': 1.67
       },
       backgroundImage: {
         'nft-bk-img': "url('/splash_nft.png')",
@@ -48,6 +55,12 @@ module.exports = {
       },
       animation: {
         'overlay-fadein': "fadeIn .3s ease-in-out"
+      },
+      letterSpacing: {
+        "extra-wide": '1.67px',
+        "semi-wide": '1.33px',
+        "minor-wide": '1px',
+        "wide": '1.25px'
       }
     },
   },
