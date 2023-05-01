@@ -1,6 +1,7 @@
 import MainLayout from "./components/layouts/MainLayout";
 import GamingPlatformSection from "./components/sections/GamingPlatformSection";
 import LandingHeroSection from "./components/sections/LandingHeroSection";
+import MultiChainSection from "./components/sections/MultiChainSection";
 import NFTMarketPlaceSection from "./components/sections/NFTMarketPlaceSection";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <LandingHeroSection />
       <NFTMarketPlaceSection />
       <GamingPlatformSection />
+      <MultiChainSection />
     </MainLayout>
   )
 }
