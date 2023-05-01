@@ -7,10 +7,12 @@ const MainLayout = ({ children }: { children?: ReactNode }) => {
   const [isNavDrawerOpen, toggleNavDrawer] = useState(false)
   return (
     <>
-      <main className="bg-backing">
-        <div className="max-w-[1200px] m-auto">
+      <header className='flex justify-center '>
+        <div className="max-w-[1200px] max-xmd:mx-[20px] mx-[40px] w-full">
           <Header isNavDrawerOpen={isNavDrawerOpen} toggleNavDrawer={toggleNavDrawer} />
         </div>
+      </header>
+      <main className='mb-[20px]'>
         {children}
       </main>
       {isNavDrawerOpen && (

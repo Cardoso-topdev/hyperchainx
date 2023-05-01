@@ -35,8 +35,12 @@ module.exports = {
       },
       colors: {
         backing: "#0c0c0c",
+        pale: '#e3e3e2',
+        dark: '#161616',
         "dark-grey": "#202020",
         "electric-lime": "#a3ff12",
+        'light-grey': '#8f8f8f',
+        'hero-section-avatar': 'rgba(163, 255, 18, 0.14)'
       },
       lineHeight: {
         "extra-tight": 1.35,
