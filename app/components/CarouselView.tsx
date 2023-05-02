@@ -1,6 +1,6 @@
 'use client'
 
-import { ButtonBack, ButtonNext, CarouselProvider, DotGroup, Slide, Slider } from 'pure-react-carousel';
+import { ButtonBack, ButtonNext, CarouselProvider, DotGroup, Slider } from 'pure-react-carousel';
 import React, { ReactNode, useState } from 'react';
 import Image from 'next/image'
 import styled from "styled-components";
@@ -8,10 +8,12 @@ import styled from "styled-components";
 const CarouselView: React.FC<{
   totalSlidesCnt?: number,
   showPrevNextBtns?: boolean,
+  initialSlideIdx?: number,
+  isDotCenter?: boolean,
   children: ReactNode
-}> = ({totalSlidesCnt = 3, showPrevNextBtns = true, children}) => {
+}> = ({totalSlidesCnt = 3, showPrevNextBtns = true, initialSlideIdx = 1, isDotCenter = false, children}) => {
   const [slideCount, setSlideCount] = useState(1);
-  const [currentSlide, setCurrentSlide] = useState(0);
+  const [currentSlide, setCurrentSlide] = useState(initialSlideIdx);
 
   return (
     <CarouselWrapper className="carousel-container">
@@ -24,7 +26,7 @@ const CarouselView: React.FC<{
         naturalSlideHeight={125}
         isIntrinsicHeight={true}
       >
-        <Wrapper>
+        <Wrapper isDotCenter={isDotCenter}>
           <Slider>
             {children}
           </Slider>
@@ -94,10 +96,11 @@ const CarouselWrapper = styled.div`
   }
 `;
 
-const Wrapper = styled.div`
+const Wrapper = styled.div<{isDotCenter: boolean}>`
   .controls {
     display: flex;
     align-items: center;
+    justify-content: ${props => props.isDotCenter ? 'center' : 'left'};
 
     .btn-arrow {
       border: none;
@@ -131,6 +134,7 @@ const Wrapper = styled.div`
         border-radius: 10px;
         background-color: #a3ff12;
         transition: background 0.4s ease;
+        box-shadow: 0 1px 8px 0 rgba(163, 255, 18, 0.5);
       }
     }
   }
