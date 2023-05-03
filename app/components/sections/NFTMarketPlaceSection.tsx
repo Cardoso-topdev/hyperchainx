@@ -11,8 +11,8 @@ const NFTMarketPlaceSection = () => {
           <button type="button" className='bg-dark px-[15px] py-[8px] text-electric-lime flex items-center'>
             <span>Play Video</span>
             <Image
-              src="/arrow-right.svg"
-              alt="arrow right"
+              src="/play-electric.webp"
+              alt="Play"
               className="ml-[15px]"
               width={14}
               height={14}

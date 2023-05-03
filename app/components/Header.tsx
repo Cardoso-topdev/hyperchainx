@@ -16,7 +16,7 @@ const Header = ({ isNavDrawerOpen, toggleNavDrawer }: { isNavDrawerOpen: boolean
           <div className="w-[240px] h-[40px] max-sm:w-full relative ">
             <Link href="/" >
               <Image
-                src="/logo.png"
+                src="/logo.svg"
                 alt="Hyper Chain X Logo"
                 className="max-xmd:hidden"
                 fill
@@ -53,7 +53,7 @@ const Header = ({ isNavDrawerOpen, toggleNavDrawer }: { isNavDrawerOpen: boolean
           <Link href="/" passHref={true}>
             <div className="uppercase flex items-center">
               <Image
-                src="/audit_icon.png"
+                src="/audit_icon.webp"
                 alt="audit"
                 className="mt-[-2px]"
                 width={23}
@@ -143,7 +143,7 @@ const Header = ({ isNavDrawerOpen, toggleNavDrawer }: { isNavDrawerOpen: boolean
           <Link href="/" passHref={true}>
             <div className="uppercase flex items-center">
               <Image
-                src="/audit_icon.png"
+                src="/audit_icon.webp"
                 alt="audit"
                 className="mt-[-2px]"
                 width={23}

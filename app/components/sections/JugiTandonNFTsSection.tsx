@@ -53,7 +53,7 @@ const JugiTandonNFTsSection = () => {
               <button type="button" className='bg-dark-grey px-[15px] py-[8px] text-electric-lime flex items-center'>
                 <span>Read more</span>
                 <Image
-                  src="/arrow-right.svg"
+                  src="/read-more-arrow.webp"
                   alt="arrow right"
                   className="ml-[15px]"
                   width={14}

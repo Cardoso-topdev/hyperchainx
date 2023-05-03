@@ -8,7 +8,7 @@ const AsFeatureOnSection = () => {
         <div className="text-pale text-[24px] text-center font-bold">AS FEATURE ON</div>
         <div className="flex justify-between mt-[50px]">
           <Image
-            src="/digital-journal.png"
+            src="/digital-journal.webp"
             alt="Digital Journal"
             className=""
             width={254}
@@ -17,7 +17,7 @@ const AsFeatureOnSection = () => {
             style={{ objectFit: "contain" }}
           />
           <Image
-            src="/bloomberg.png"
+            src="/bloomberg.webp"
             alt="Bloomberg"
             className=""
             width={200}
@@ -26,7 +26,7 @@ const AsFeatureOnSection = () => {
             style={{ objectFit: "contain" }}
           />
           <Image
-            src="/yahoo.png"
+            src="/yahoo.webp"
             alt="Yahoo"
             className=""
             width={118}
@@ -35,8 +35,8 @@ const AsFeatureOnSection = () => {
             style={{ objectFit: "contain" }}
           />
           <Image
-            src="/investing.png"
-            alt="Investing"
+            src="/investing.webp"
+            alt="Invest"
             className=""
             width={193}
             height={30}
@@ -44,7 +44,7 @@ const AsFeatureOnSection = () => {
             style={{ objectFit: "contain" }}
           />
           <Image
-            src="/marketwatch.png"
+            src="/marketwatch.webp"
             alt="Market Watch"
             className=""
             width={206}
