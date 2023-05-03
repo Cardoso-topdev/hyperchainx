@@ -8,6 +8,7 @@ import JugiTandonNFTsSection from "./components/sections/JugiTandonNFTsSection";
 import LandingHeroSection from "./components/sections/LandingHeroSection";
 import MultiChainSection from "./components/sections/MultiChainSection";
 import NFTMarketPlaceSection from "./components/sections/NFTMarketPlaceSection";
+import TokenMetricsSection from "./components/sections/TokenMetricsSection";
 import TokenomicsSection from "./components/sections/TokenomicsSection";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <DigitalArtMuseumSection />
       <JugiTandonNFTsSection />
       <TokenomicsSection />
+      <TokenMetricsSection />
     </MainLayout>
   )
 }

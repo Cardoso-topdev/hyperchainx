@@ -19,8 +19,13 @@ const socialItems = [
     link: '/'
   },
   {
-    src: "/discord.svg",
-    alt: 'discord',
+    src: "/twitch.svg",
+    alt: 'twitch',
+    link: '/'
+  },
+  {
+    src: "/youtube.svg",
+    alt: 'youtube',
     link: '/'
   },
   {
@@ -29,18 +34,13 @@ const socialItems = [
     link: '/'
   },
   {
-    src: "/discord.svg",
-    alt: 'discord',
+    src: "/path.svg",
+    alt: 'path',
     link: '/'
   },
   {
-    src: "/discord.svg",
-    alt: 'discord',
-    link: '/'
-  },
-  {
-    src: "/discord.svg",
-    alt: 'discord',
+    src: "/reddit.svg",
+    alt: 'reddit',
     link: '/'
   }
 ]
