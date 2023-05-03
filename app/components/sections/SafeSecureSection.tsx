@@ -5,8 +5,8 @@ const SafeSecureSection = () => {
   return (
     <section className="bg-electric-lime py-[60px]">
       <div className="max-w-[1200px] m-auto">
-        <div className="flex">
-          <div>
+        <div className="flex gap-[28px] items-center">
+          <div className="shrink-0">
             <Image
               src="/secure-illustration.svg"
               alt="Secure Illustration"
@@ -46,6 +46,15 @@ const SafeSecureSection = () => {
                   style={{ objectFit: "contain" }}
                 />
               </button>
+            </div>
+            <div className="text-dark text-[16px] mt-[30px]">
+              Our top priority is to ensure the safety and security of your
+              investment. That's why we have partnered with CERTIK, one of the
+              most reputable audit companies in the entire crypto industry. By
+              undergoing an extensive audit, as well as adhering to KYC
+              protocols and utilizing Skynet, we can confidently assure our
+              clients that our project and contract are professionally crafted,
+              and 100% secure.
             </div>
           </div>
         </div>
