@@ -1,5 +1,7 @@
 'use client'
 import React, { useState } from 'react';
+import styled from "styled-components";
+import Image from 'next/image'
 
 const tokenMetrics = [
   {
@@ -80,9 +82,23 @@ const TokenMetricsSection = () => {
   return (
     <section className='bg-[#111] py-[100px]'>
       <div className="max-w-[1200px] m-auto">
-        <div className="flex">
+        <div className="flex justify-between">
+          <div className="text-pale text-[30px] mb-[44px]">TOKEN METRICS</div>
+          <button type="button" className='bg-dark-grey px-[15px] py-[8px] text-electric-lime flex items-center'>
+            <span>Read more</span>
+            <Image
+              src="/read-more-arrow.webp"
+              alt="arrow right"
+              className="ml-[15px]"
+              width={14}
+              height={14}
+              priority
+              style={{ objectFit: "contain" }}
+            />
+          </button>
+        </div>
+        <div className="flex items-center justify-between">
           <div>
-            <div className="text-pale text-[30px] mb-[44px]">TOKEN METRICS</div>
             <div className='flex flex-col gap-[13px]'>
               {tokenMetrics.map((metric, idx) => (
                 <div className="flex items-center cursor-pointer" key={metric.title} onClick={() => setCurrentTokenIdx(idx)}>
@@ -95,7 +111,13 @@ const TokenMetricsSection = () => {
               ))}
             </div>
           </div>
-          <div className="pie relative w-[150px] h-[150px] "></div>
+          <div className='relative flex items-center'>
+            <PieView percent={tokenMetrics[currentTokenIdx].value} className="relative w-[387px] h-[387px] before:content-[''] before:absolute before:rounded-full before:inset-0" />
+            <div className="absolute top-[85px] right-[85px] w-[220px] h-[220px] flex justify-center items-center backdrop-blur-[23px] border-dark-grey border-2 rounded-full flex-col">
+              <div className="text-pale text-[20px]">{tokenMetrics[currentTokenIdx].title}</div>
+              <div className="text-electric-lime text-[20px]">{tokenMetrics[currentTokenIdx].value}%</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -104,4 +126,8 @@ const TokenMetricsSection = () => {
 
 export default TokenMetricsSection;
 
-// before:bg-electric-lime before:bg-gradient-to-br before:from-electric-lime before:to-transparent before:bg-radial-gradient before:bg-contain
+const PieView = styled.div<{ percent: number }>`
+  :before{
+    background: conic-gradient(#a3ff12 calc(${props => props.percent}*1%),#0000 0);
+  }
+`

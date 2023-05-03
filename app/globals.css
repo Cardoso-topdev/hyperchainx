@@ -25,15 +25,3 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
-.pie {
-  width:150px;
-  position:relative;
-}
-.pie:before{
-  content:"";
-  position:absolute;
-  border-radius:50%;
-  inset:0;
-  background: radial-gradient(farthest-side,darkred 98%,#0000) top/5px no-repeat, conic-gradient(darkred calc(90*1%),#0000 0);
-}

@@ -44,7 +44,11 @@ module.exports = {
         'nft-bk-img': "url('/splash_nft.png')",
         'project-bk-img': "url('/splash_project.png')",
         'gaming-bk-img': "url('/splash_gaming.png')",
-        'gradient-bottom-lime': 'linear-gradient(to bottom, rgba(12, 12, 12, 0) 31%, #a3ff12 500%)'
+        'gradient-bottom-lime': 'linear-gradient(to bottom, rgba(12, 12, 12, 0) 31%, #a3ff12 500%)',
+      },
+      background: {
+        'custom-red': 'red',
+        'pie-bk': 'conic-gradient(#a3ff12 calc(90*1%),#0000 0);'
       },
       animation: {
         'overlay-fadein': "fadeIn .3s ease-in-out"
