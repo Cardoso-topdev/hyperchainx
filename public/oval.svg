@@ -1,0 +1,9 @@
+<svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M193 327c71.797 0 130-58.203 130-130S264.797 67 193 67 63 125.203 63 197s58.203 130 130 130z" id="lbbv7fxdqa"/>
+        <mask id="tut4ybmxjb" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="260" height="260" fill="#fff">
+            <use xlink:href="#lbbv7fxdqa"/>
+        </mask>
+    </defs>
+    <use mask="url(#tut4ybmxjb)" xlink:href="#lbbv7fxdqa" transform="translate(-63 -67)" stroke="#111" stroke-width="28" fill="none" fill-rule="evenodd" stroke-dasharray="1,9" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,67 @@
+<svg width="222" height="245" viewBox="0 0 222 245" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="kva7f2p8oa">
+            <stop stop-color="#A3FF12" offset="0%"/>
+            <stop stop-color="#A2FD12" offset="7.774%"/>
+            <stop stop-color="#212223" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="40.573%" id="fqwli6z5ic">
+            <stop offset="0%"/>
+            <stop stop-opacity="0" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="10.232%" x2="50%" y2="100%" id="spi3pjiamb">
+            <stop stop-color="#161616" offset="0%"/>
+            <stop stop-color="#A3FF12" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="154.546%" y1="94.651%" x2="0%" y2="100%" id="t3m0lx55id">
+            <stop offset="0%"/>
+            <stop stop-color="#315000" offset="28.328%"/>
+            <stop stop-color="#A3FF12" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1=".175%" x2="50%" y2="98.285%" id="turs46b4ee">
+            <stop stop-color="#FFF" stop-opacity=".423" offset="0%"/>
+            <stop stop-color="#A3FF12" offset="100%"/>
+        </linearGradient>
+        <path id="sdkgmce8xf" d="M0 0h29.9v23.043H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(20 14)">
+            <ellipse stroke="#212223" stroke-width="2" cx="91" cy="62.898" rx="62" ry="61.898"/>
+            <ellipse stroke="#212223" stroke-width="2" cx="91" cy="62.898" rx="38.667" ry="38.602"/>
+            <path d="M181 66v67H1V66h180z" stroke="#212223" stroke-width="2" fill="#A3FF12"/>
+            <path stroke="url(#kva7f2p8oa)" fill="#A3FF12" transform="matrix(1 0 0 -1 0 306)" d="M181.5 133.5v39H.5v-39"/>
+            <path fill="#A3FF12" d="M59 65h64v2H59z"/>
+            <path stroke="#212223" stroke-width="4.667" fill="#212223" d="m84 125.795-9.333 41.932h32.666L98 125.795"/>
+            <ellipse stroke="#212223" cx="91" cy="114.148" rx="15.833" ry="15.807"/>
+            <ellipse stroke="#212223" stroke-width="2" cx="28" cy="93.182" rx="8.333" ry="8.318"/>
+            <ellipse stroke="#212223" stroke-width="2" cx="154" cy="93.182" rx="8.333" ry="8.318"/>
+        </g>
+        <path d="M168.5 222.5v22h-22v-22h22zm-46 0v12h-12v-12h12zm-69 0v12h-12v-12h12zm23-30v22h-22v-22h22zm46 0v22h-22v-22h22zm69 0v22h-22v-22h22zm-46 0v12h-12v-12h12zm-46-23v22h-22v-22h22zm91-22v22h-22v22h-22v-44h44zm-137 0v22h-22v-22h22z" stroke="url(#spi3pjiamb)" fill="url(#fqwli6z5ic)"/>
+        <rect fill="#212223" x="83" y="87" width="5" height="21" rx="2.5"/>
+        <rect fill="#212223" x="98" y="69" width="5" height="28" rx="2.5"/>
+        <rect fill="#212223" x="115" y="63" width="5" height="28" rx="2.5"/>
+        <rect fill="#212223" x="132" y="91" width="5" height="14" rx="2.5"/>
+        <rect fill="#212223" x="83" y="69" width="5" height="9" rx="2.5"/>
+        <rect fill="#212223" x="132" y="79" width="5" height="9" rx="2.5"/>
+        <path stroke="#161616" stroke-width="2" d="M0 147h222"/>
+        <g transform="translate(71 108)">
+            <path d="M39 10c12.31 0 24.93 10.238 38 30.297V48c0 10.493-4.253 19.993-11.13 26.87C58.993 81.747 49.493 86 39 86c-10.493 0-19.993-4.253-26.87-11.13C5.253 67.993 1 58.493 1 48v-7.698C14.36 20.242 26.98 10 39 10z" stroke="#161616" stroke-width="2" fill="url(#t3m0lx55id)"/>
+            <path stroke="#212223" d="M8.5 58.5h1v11h-1zM17.214 67.5h1v11h-1zM25.929 72.5h1v11h-1zM34.643 74.5h1v11h-1zM43.357 74.5h1v11h-1zM52.071 73.5h1v11h-1zM60.786 68.5h1v11h-1zM69.5 59.5h1v11h-1z"/>
+            <circle stroke="#161616" stroke-width="3" fill="#A3FF12" cx="39" cy="39" r="37.5"/>
+            <g stroke-linejoin="square">
+                <circle stroke="url(#turs46b4ee)" stroke-width="6" cx="39" cy="39" r="26"/>
+                <circle stroke="#202020" cx="39" cy="39" r="28.5"/>
+            </g>
+            <g transform="translate(20 26.5)">
+                <mask id="gv1wmo2yfg" fill="#fff">
+                    <use xlink:href="#sdkgmce8xf"/>
+                </mask>
+                <path d="m29.9 0-3.018 5.1-2.898 4.9h-7.008l2.957-5h-6.305c-.435 0-.837.226-1.055.594l-5.6 9.464a.746.746 0 0 0 .124.916l1.8 1.757-3.142 5.312-4.687-4.574a3.496 3.496 0 0 1-.58-4.297L7.584 2.179C8.38.83 9.854 0 11.449 0H29.9z" fill="#212223" mask="url(#gv1wmo2yfg)"/>
+            </g>
+            <path d="m57.511 37.328-7.094 11.993c-.797 1.348-2.271 2.179-3.866 2.179H28.1l5.915-10h7.008l-2.957 5h6.305c.435 0 .837-.226 1.055-.594l5.6-9.464a.745.745 0 0 0-.124-.916l-1.802-1.759 3.145-5.31 4.686 4.574a3.496 3.496 0 0 1 .58 4.297" fill="#212223"/>
+        </g>
+        <path stroke="#A3FF12" stroke-width="7" d="M111-4.492c.693.564 1.419 1.148 2.179 1.753 4.506 3.584 8.05 6.172 10.64 7.75 2.588 1.574 6.46 3.5 11.605 5.792.861.383 1.69.747 2.489 1.092-.142.9-.299 1.816-.472 2.746-1.647 8.833-4.164 15.89-7.469 21.207-3.262 5.248-8.814 11.213-16.725 17.836-.702.587-1.395 1.157-2.081 1.71a50.29 50.29 0 0 1-2.258-1.588c-5.821-4.34-11.128-10.313-15.88-17.958-4.8-7.722-7.599-14.856-8.495-21.37-.12-.868-.21-1.754-.27-2.66.745-.322 1.516-.66 2.313-1.015C91.72 8.513 95.59 6.587 98.18 5.01c2.594-1.579 6.138-4.166 10.641-7.749a255.64 255.64 0 0 0 2.18-1.753z" fill="#A3FF12"/>
+        <path stroke="#212223" stroke-width="4" d="M111-2.562c.405.326.82.658 1.245.997 4.57 3.636 8.167 6.257 10.795 7.857 2.626 1.598 6.552 3.556 11.774 5.881.487.217.964.428 1.43.632-.087.516-.18 1.036-.278 1.561-1.605 8.614-4.044 15.504-7.267 20.69-3.2 5.147-8.658 10.984-16.415 17.478-.403.336-.802.668-1.199.992a48.24 48.24 0 0 1-1.28-.923c-5.687-4.239-10.862-10.08-15.504-17.547-4.668-7.51-7.41-14.444-8.282-20.783a35.628 35.628 0 0 1-.175-1.507c.439-.192.886-.39 1.343-.593 5.218-2.324 9.144-4.281 11.773-5.881 2.63-1.602 6.227-4.223 10.795-7.857.425-.339.84-.67 1.245-.997z"/>
+        <path stroke="#212223" stroke-width="4" d="m100 23.167 8.25 8.25L122 18.583"/>
+    </g>
+</svg>

@@ -36,8 +36,8 @@ const CoreFeaturesSection = () => {
           </div>
           <div className="bg-dark w-[270px] h-[384px] flex flex-col items-center p-[20px] pt-[30px]">
             <Image
-              src="/feature-game-store.png"
-              alt="arrow right"
+              src="/controller.svg"
+              alt="Game Controller"
               className=""
               width={60}
               height={60}
