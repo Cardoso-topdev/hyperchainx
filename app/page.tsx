@@ -8,6 +8,7 @@ import JugiTandonNFTsSection from "./components/sections/JugiTandonNFTsSection";
 import LandingHeroSection from "./components/sections/LandingHeroSection";
 import MultiChainSection from "./components/sections/MultiChainSection";
 import NFTMarketPlaceSection from "./components/sections/NFTMarketPlaceSection";
+import OurPartnersSection from "./components/sections/OurPartnersSection";
 import RoadMapSection from "./components/sections/RoadMapSection";
 import SafeSecureSection from "./components/sections/SafeSecureSection";
 import TokenMetricsSection from "./components/sections/TokenMetricsSection";
@@ -29,6 +30,7 @@ export default function Home() {
       <TokenMetricsSection />
       <SafeSecureSection />
       <RoadMapSection />
+      <OurPartnersSection />
     </MainLayout>
   );
 }
