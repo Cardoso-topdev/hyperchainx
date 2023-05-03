@@ -49,7 +49,7 @@ const SafeSecureSection = () => {
             </div>
             <div className="text-dark text-[16px] mt-[30px]">
               Our top priority is to ensure the safety and security of your
-              investment. That's why we have partnered with CERTIK, one of the
+              investment. That is why we have partnered with CERTIK, one of the
               most reputable audit companies in the entire crypto industry. By
               undergoing an extensive audit, as well as adhering to KYC
               protocols and utilizing Skynet, we can confidently assure our
