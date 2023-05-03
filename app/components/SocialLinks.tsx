@@ -1,55 +1,55 @@
-import React from 'react';
-import Image from 'next/image'
-import Link from 'next/link';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 const socialItems = [
   {
     src: "/discord.svg",
-    alt: 'discord',
-    link: 'https://discord'
+    alt: "discord",
+    link: "https://discord",
   },
   {
     src: "/telegram.svg",
-    alt: 'telegram',
-    link: '/'
+    alt: "telegram",
+    link: "/",
   },
   {
     src: "/twitter.svg",
-    alt: 'twitter',
-    link: '/'
+    alt: "twitter",
+    link: "/",
   },
   {
     src: "/twitch.svg",
-    alt: 'twitch',
-    link: '/'
+    alt: "twitch",
+    link: "/",
   },
   {
     src: "/youtube.svg",
-    alt: 'youtube',
-    link: '/'
+    alt: "youtube",
+    link: "/",
   },
   {
-    src: "/discord.svg",
-    alt: 'discord',
-    link: '/'
+    src: "/instagram.svg",
+    alt: "instagram",
+    link: "/",
   },
   {
     src: "/path.svg",
-    alt: 'path',
-    link: '/'
+    alt: "path",
+    link: "/",
   },
   {
     src: "/reddit.svg",
-    alt: 'reddit',
-    link: '/'
-  }
-]
+    alt: "reddit",
+    link: "/",
+  },
+];
 const SocialLinks = () => {
   return (
-    <div className='flex gap-[30px] items-center'>
+    <div className="flex gap-[30px] items-center">
       {socialItems.map((item, idx) => (
         <div className="h-[20px] w-[25px] relative cursor-pointer" key={idx}>
-          <Link href={item.link as string} >
+          <Link href={item.link as string}>
             <Image
               src={item.src}
               alt={item.alt}
