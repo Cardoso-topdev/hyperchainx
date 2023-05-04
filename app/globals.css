@@ -1,6 +1,80 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Industry-Black";
+  src: url('/fonts/Industry-Black.otf')
+}
+@font-face {
+  font-family: 'Industry-BlackItalic';
+  src: url('/fonts/Industry-BlackItalic.otf')
+}
+@font-face {
+  font-family: 'Industry-Bold';
+  src: url('/fonts/Industry-Bold.otf')
+}
+@font-face {
+  font-family: 'Industry-BoldItalic';
+  src: url('/fonts/Industry-BoldItalic.otf')
+}
+@font-face {
+  font-family: 'Industry-Book';
+  src: url('/fonts/Industry-Book.otf')
+}
+@font-face {
+  font-family: 'Industry-BookItalic';
+  src: url('/fonts/Industry-BookItalic.otf')
+}
+@font-face {
+  font-family: 'Industry-Demi';
+  src: url('/fonts/Industry-Demi.otf')
+}
+@font-face {
+  font-family: 'Industry-DemiItalic';
+  src: url('/fonts/Industry-DemiItalic.otf')
+}
+@font-face {
+  font-family: 'Industry-Light';
+  src: url('/fonts/Industry-Light.otf')
+}
+@font-face {
+  font-family: 'Industry-LightItalic';
+  src: url('/fonts/Industry-LightItalic.otf')
+}
+@font-face {
+  font-family: 'Industry-Medium';
+  src: url('/fonts/Industry-Medium.otf')
+}
+@font-face {
+  font-family: 'Industry-MediumItalic';
+  src: url('/fonts/IndustryMediumItalic.otf')
+}
+@font-face {
+  font-family: 'Industry-Thin';
+  src: url('/fonts/Industry-Thin.otf')
+}
+@font-face {
+  font-family: 'Industry-ThinItalic';
+  src: url('/fonts/Industry-ThinItalic.otf')
+}
+@font-face {
+  font-family: 'Industry-Ultra';
+  src: url('/fonts/Industry-Ultra.otf')
+}
+@font-face {
+  font-family: 'Industry-UltraItalic';
+  src: url('/fonts/Industry-UltraItalic.otf')
+}
+@font-face {
+  font-family: 'Industry';
+  src: url('/fonts/Industry-Black.otf')
+}
+@font-face {
+  font-family: 'IntegralCF';
+  src: url('/fonts/Industry-Black.ttf')
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -11,8 +85,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 12, 12, 12;
+    --background-end-rgb: 12, 12, 12;
   }
 }
 
@@ -24,4 +98,16 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+*::-webkit-scrollbar {
+  width: 3px;
+  height: 0px;
+}
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgba(#000, 0.8);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #a3ff12;
+  outline: 1px solid #a3ff12;
+  border-radius: 2px;
 }
