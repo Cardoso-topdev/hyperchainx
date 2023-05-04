@@ -13,8 +13,10 @@ const LiveStatView = ({
 }) => {
   return (
     <div className="bg-[rgba(22,22,22,0.7)] p-[20px] max-3xl:p-[15px] w-[285px] max-xl:w-fit max-xmd:w-[calc(50vw-40px)] max-xmd:justify-between">
-      <div className="text-[20px] max-3xl:text-[16px]">{title}</div>
-      <div className="text-[30px] max-3xl:text-[24px] text-electric-lime mt-[10px] max-md:text-[20px]">
+      <div className="text-[20px] max-3xl:text-[16px] font-['Industry-Demi']">
+        {title}
+      </div>
+      <div className="text-[30px] max-3xl:text-[24px] text-electric-lime mt-[10px] max-md:text-[20px] font-['Industry'] text-ellipsis overflow-hidden">
         {statValue}
       </div>
     </div>
@@ -40,15 +42,15 @@ const liveStats = [
 ];
 const LandingHeroSection = () => {
   return (
-    <section className="mt-[200px] max-3xl:mt-[170px] max-xmd:mt-[116px] mb-[100px] px-[30px]">
+    <section className="mt-[200px] max-3xl:mt-[170px] max-xmd:mt-[116px] mb-[100px] max-xmd:mb-[75px] px-[30px]">
       <div className="max-w-[1200px] m-auto">
         <div className="flex items-center">
           <div>
-            <h1 className="text-[30px] max-sm:text-[28px] text-pale whitespace-pre-line max-xmd:whitespace-normal mb-[30px]">
+            <h1 className="text-[30px] max-sm:text-[28px] text-pale whitespace-pre-line max-xmd:whitespace-normal mb-[30px] font-['IntegralCF']">
               {`THE ALL-IN-ONE CRYPTO
             GAMING PLATFORM`}
             </h1>
-            <span className="w-[556px] text-light-grey whitespace-pre-line mb-[70px] block max-md:w-full max-xmd:whitespace-normal">
+            <span className="w-[556px] text-light-grey whitespace-pre-line mb-[70px] block max-md:w-full max-xmd:whitespace-normal font-['Industry']">
               {`NFTS and blockchains are the future of gaming, we at
               HyperchainX are providing a tailored NFT marketplace and
               gaming platform ecosystem. Built by gamers, for the gamers!`}
@@ -97,7 +99,9 @@ const LandingHeroSection = () => {
         </div>
         <div className="flex items-center flex-col mt-[90px]">
           <div className="flex items-center">
-            <span className="text-pale text-[30px]">LIVE STATS</span>
+            <span className="text-pale text-[30px] font-['IntegralCF']">
+              LIVE STATS
+            </span>
             <span className="ml-[15px] w-[7px] h-[7px] bg-electric-lime block rounded-full shadow-[0_0_7px_4px_rgba(163,255,18,0.15)]"></span>
           </div>
           <div className="flex justify-between mt-[30px] w-full flex-wrap gap-y-[8px]">
