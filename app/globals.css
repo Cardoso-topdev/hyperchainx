@@ -67,6 +67,14 @@
   font-family: 'Industry-UltraItalic';
   src: url('/fonts/Industry-UltraItalic.otf')
 }
+@font-face {
+  font-family: 'Industry';
+  src: url('/fonts/Industry-Black.otf')
+}
+@font-face {
+  font-family: 'IntegralCF';
+  src: url('/fonts/Industry-Black.ttf')
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -103,7 +111,3 @@ body {
   outline: 1px solid #a3ff12;
   border-radius: 2px;
 }
-
-/* main {
-  overflow: auto;
-} */
