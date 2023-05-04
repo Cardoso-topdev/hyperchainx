@@ -12,7 +12,7 @@ const AsFeatureOnSection = () => {
           <Image
             src="/bloomberg.webp"
             alt="Bloomberg"
-            className="max-xl:w-[113px] max-xl:h-[21px]"
+            className="max-xl:w-[103px] max-xl:h-[21px]"
             width={200}
             height={30}
             priority
@@ -21,7 +21,7 @@ const AsFeatureOnSection = () => {
           <Image
             src="/yahoo.webp"
             alt="Yahoo"
-            className="max-xl:w-[83px] max-xl:h-[30px]"
+            className="max-xl:w-[73px] max-xl:h-[30px]"
             width={118}
             height={30}
             priority
@@ -30,7 +30,7 @@ const AsFeatureOnSection = () => {
           <Image
             src="/investing.webp"
             alt="Invest"
-            className="max-xl:w-[135px] max-xl:h-[28px]"
+            className="max-xl:w-[125px] max-xl:h-[28px]"
             width={193}
             height={30}
             priority
@@ -39,7 +39,7 @@ const AsFeatureOnSection = () => {
           <Image
             src="/digital-journal.webp"
             alt="Digital Journal"
-            className="max-xl:w-[177px] max-xl:h-[21px]"
+            className="max-xl:w-[167px] max-xl:h-[21px]"
             width={254}
             height={30}
             priority
@@ -48,7 +48,7 @@ const AsFeatureOnSection = () => {
           <Image
             src="/marketwatch.webp"
             alt="Market Watch"
-            className="max-xl:w-[144px] max-xl:h-[21px]"
+            className="max-xl:w-[134px] max-xl:h-[21px]"
             width={206}
             height={30}
             priority

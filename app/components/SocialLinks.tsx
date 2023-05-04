@@ -46,7 +46,7 @@ const socialItems = [
 ];
 const SocialLinks = () => {
   return (
-    <div className="flex sm:gap-[30px] max-xmd:justify-between items-center">
+    <div className="flex sm:gap-[20px] max-xmd:justify-between items-center">
       {socialItems.map((item, idx) => (
         <div className="h-[20px] w-[25px] relative cursor-pointer" key={idx}>
           <Link href={item.link as string}>

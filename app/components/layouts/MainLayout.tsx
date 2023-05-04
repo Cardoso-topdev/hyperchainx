@@ -9,7 +9,7 @@ const MainLayout = ({ children }: { children?: ReactNode }) => {
   return (
     <>
       <header className="flex justify-center ">
-        <div className="max-w-[1200px] max-xmd:mx-[20px] mx-[40px] w-full">
+        <div className="max-w-[1200px] max-xmd:mx-[20px] mx-[30px] w-full">
           <Header
             isNavDrawerOpen={isNavDrawerOpen}
             toggleNavDrawer={toggleNavDrawer}

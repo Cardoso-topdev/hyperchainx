@@ -63,15 +63,15 @@ const Header = ({
         </div>
         <div className="flex gap-[30px] items-center flex-1 justify-end max-xmd:hidden">
           <Link href="/" passHref={true}>
-            <div className="uppercase h-[100px] border-b-[1px] border-electric-lime flex items-center">
+            <div className="uppercase h-[100px] border-b-[1px] border-electric-lime flex items-center font-['Arame']">
               Start
             </div>
           </Link>
           <Link href="/" passHref={true}>
-            <div className="uppercase">Team</div>
+            <div className="uppercase font-['Arame']">Team</div>
           </Link>
           <Link href="/" passHref={true}>
-            <div className="uppercase">WhitePaper</div>
+            <div className="uppercase font-['Arame']">WhitePaper</div>
           </Link>
           <Link href="/" passHref={true}>
             <div className="uppercase flex items-center">
@@ -84,7 +84,7 @@ const Header = ({
                 priority
                 style={{ objectFit: "contain" }}
               />
-              <div className="ml-[6px]">Audit</div>
+              <div className="ml-[6px] font-['Arame']">Audit</div>
             </div>
           </Link>
           <Link href="/" passHref={true}>
