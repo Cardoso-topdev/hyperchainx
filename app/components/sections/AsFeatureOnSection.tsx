@@ -1,25 +1,18 @@
-import React from 'react';
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 
 const AsFeatureOnSection = () => {
   return (
-    <section className='mt-[-100px] h-[420px] w-full bg-gradient-bottom-lime'>
+    <section className="mt-[-100px] h-[420px] w-full bg-gradient-bottom-lime px-[30px]">
       <div className="max-w-[1200px] m-auto pt-[200px]">
-        <div className="text-pale text-[24px] text-center font-bold">AS FEATURE ON</div>
-        <div className="flex justify-between mt-[50px]">
-          <Image
-            src="/digital-journal.webp"
-            alt="Digital Journal"
-            className=""
-            width={254}
-            height={30}
-            priority
-            style={{ objectFit: "contain" }}
-          />
+        <div className="text-pale text-[24px] text-center font-bold font-['IntegralCF']">
+          AS FEATURE ON
+        </div>
+        <div className="flex justify-between mt-[50px] flex-wrap gap-y-[20px]">
           <Image
             src="/bloomberg.webp"
             alt="Bloomberg"
-            className=""
+            className="max-xl:w-[113px] max-xl:h-[21px]"
             width={200}
             height={30}
             priority
@@ -28,7 +21,7 @@ const AsFeatureOnSection = () => {
           <Image
             src="/yahoo.webp"
             alt="Yahoo"
-            className=""
+            className="max-xl:w-[83px] max-xl:h-[30px]"
             width={118}
             height={30}
             priority
@@ -37,8 +30,17 @@ const AsFeatureOnSection = () => {
           <Image
             src="/investing.webp"
             alt="Invest"
-            className=""
+            className="max-xl:w-[135px] max-xl:h-[28px]"
             width={193}
+            height={30}
+            priority
+            style={{ objectFit: "contain" }}
+          />
+          <Image
+            src="/digital-journal.webp"
+            alt="Digital Journal"
+            className="max-xl:w-[177px] max-xl:h-[21px]"
+            width={254}
             height={30}
             priority
             style={{ objectFit: "contain" }}
@@ -46,7 +48,7 @@ const AsFeatureOnSection = () => {
           <Image
             src="/marketwatch.webp"
             alt="Market Watch"
-            className=""
+            className="max-xl:w-[144px] max-xl:h-[21px]"
             width={206}
             height={30}
             priority
