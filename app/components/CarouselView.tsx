@@ -1,17 +1,29 @@
-'use client'
+"use client";
 
-import { ButtonBack, ButtonNext, CarouselProvider, DotGroup, Slider } from 'pure-react-carousel';
-import React, { ReactNode, useState } from 'react';
-import Image from 'next/image'
+import {
+  ButtonBack,
+  ButtonNext,
+  CarouselProvider,
+  DotGroup,
+  Slider,
+} from "pure-react-carousel";
+import React, { ReactNode, useState } from "react";
+import Image from "next/image";
 import styled from "styled-components";
 
 const CarouselView: React.FC<{
-  totalSlidesCnt?: number,
-  showPrevNextBtns?: boolean,
-  initialSlideIdx?: number,
-  isDotCenter?: boolean,
-  children: ReactNode
-}> = ({totalSlidesCnt = 3, showPrevNextBtns = true, initialSlideIdx = 1, isDotCenter = false, children}) => {
+  totalSlidesCnt?: number;
+  showPrevNextBtns?: boolean;
+  initialSlideIdx?: number;
+  isDotCenter?: boolean;
+  children: ReactNode;
+}> = ({
+  totalSlidesCnt = 3,
+  showPrevNextBtns = true,
+  initialSlideIdx = 1,
+  isDotCenter = false,
+  children,
+}) => {
   const [slideCount, setSlideCount] = useState(1);
   const [currentSlide, setCurrentSlide] = useState(initialSlideIdx);
 
@@ -27,33 +39,35 @@ const CarouselView: React.FC<{
         isIntrinsicHeight={true}
       >
         <Wrapper isDotCenter={isDotCenter}>
-          <Slider>
-            {children}
-          </Slider>
+          <Slider>{children}</Slider>
           <div className="controls">
-            {showPrevNextBtns && <ButtonBack className="btn-arrow reverse-arrow">
-              <Image
-                src="/arrow-right.svg"
-                alt="arrow right"
-                className="ml-[15px]"
-                width={14}
-                height={14}
-                priority
-                style={{ objectFit: "contain" }}
-              />
-            </ButtonBack>}
+            {showPrevNextBtns && (
+              <ButtonBack className="btn-arrow reverse-arrow">
+                <Image
+                  src="/arrow-right.svg"
+                  alt="arrow right"
+                  className="ml-[15px]"
+                  width={14}
+                  height={14}
+                  priority
+                  style={{ objectFit: "contain" }}
+                />
+              </ButtonBack>
+            )}
             <DotGroup className="dot-group" />
-            {showPrevNextBtns && <ButtonNext className="btn-arrow">
-              <Image
-                src="/arrow-right.svg"
-                alt="arrow right"
-                className="ml-[15px]"
-                width={14}
-                height={14}
-                priority
-                style={{ objectFit: "contain" }}
-              />
-            </ButtonNext>}
+            {showPrevNextBtns && (
+              <ButtonNext className="btn-arrow">
+                <Image
+                  src="/arrow-right.svg"
+                  alt="arrow right"
+                  className="ml-[15px]"
+                  width={14}
+                  height={14}
+                  priority
+                  style={{ objectFit: "contain" }}
+                />
+              </ButtonNext>
+            )}
           </div>
         </Wrapper>
       </CarouselProvider>
@@ -63,8 +77,8 @@ const CarouselView: React.FC<{
 
 const CarouselWrapper = styled.div`
   &.carousel-container {
-    margin: 12px auto;
-    max-width: 272px;
+    margin: 0;
+    // max-width: 272px;
     overflow: hidden;
     /* filter: drop-shadow(0px 12px 30px rgba(50, 50, 50, 0.2)); */
 
@@ -96,11 +110,11 @@ const CarouselWrapper = styled.div`
   }
 `;
 
-const Wrapper = styled.div<{isDotCenter: boolean}>`
+const Wrapper = styled.div<{ isDotCenter: boolean }>`
   .controls {
     display: flex;
     align-items: center;
-    justify-content: ${props => props.isDotCenter ? 'center' : 'left'};
+    justify-content: ${(props) => (props.isDotCenter ? "center" : "left")};
 
     .btn-arrow {
       border: none;
