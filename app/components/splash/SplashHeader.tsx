@@ -1,21 +1,22 @@
-import React from 'react';
-import Image from 'next/image'
-import Link from 'next/link';
-import SocialLinks from '../SocialLinks';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SocialLinks from "../SocialLinks";
+import Logo from "../../../public/logo.svg";
 
 const SplashHeader = () => {
   return (
-    <div className='h-[100px] border border-backing w-full m-0 py-[30px] px-[40px] flex justify-between'>
+    <div className="h-[100px] border border-backing w-full m-0 py-[30px] px-[40px] flex justify-between">
       <div className="relative flex-1 justify-start">
         <div className="w-[240px] h-[40px] max-sm:w-full relative ">
-          <Link href="/" >
+          <Link href="/">
             <Image
-              src="/logo.png"
+              src={Logo}
               alt="Hyper Chain X Logo"
               className=""
               fill
               priority
-              style={{objectFit:"contain"}}
+              style={{ objectFit: "contain" }}
             />
           </Link>
         </div>
