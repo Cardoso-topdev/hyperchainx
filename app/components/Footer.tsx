@@ -2,17 +2,18 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import SocialLinks from "./SocialLinks";
+import Logo from "../../public/logo.svg";
 
 const Footer = () => {
   return (
     <div>
-      <div className="h-[90px] border-b-2 border-dark-grey px-[30px]">
+      <div className="h-[90px] border-y-2 border-dark-grey px-[30px]">
         <div className="max-w-[1200px] m-auto h-[90px] border-dark-grey border-2 border-y-0 px-[30px] flex justify-between items-center">
           <div className="relative justify-start">
             <div className="w-[240px] h-[40px] relative ">
               <Link href="/">
                 <Image
-                  src="/logo.png"
+                  src={Logo}
                   alt="Hyper Chain X Logo"
                   className=""
                   fill
